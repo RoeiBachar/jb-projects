@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sales</title>
+  </head>
+  <body
+    dir="rtl"
+    style="font-family: arial; font-size: 20px; text-align: center;background-color:rgb(226, 225, 225)"
+  >
+    <center><h1>מכירת רחפן</h1></center>
+     
+      <button style="background-color: rgba(255, 255, 0, 0.702)">
+        <a
+          href="../תרגיל 1/home.html"
+          style="color: black; text-decoration: none;font-weight: bold"
+          >דף הבית</a
+        >
+      </button>
+      <button style="background-color: rgba(240, 240, 37, 0.127)">
+        <a
+          href="../תרגיל 1/sales.html"
+          style="color: black; text-decoration: none;font-weight: bold"
+          >מכירת רחפן</a
+        >
+      </button>
+      <button style="background-color: rgba(255, 255, 0, 0.702)">
+        <a
+          href="../תרגיל 1/absorption.html"
+          style="color: black; text-decoration: none;font-weight: bold"
+          >תיקון רחפן</a
+        >
+      </button>
+      <button style="background-color: rgba(255, 255, 0, 0.702)">
+        <a
+          href="../תרגיל 1/returns.html"
+          style="color: black; text-decoration: none;font-weight: bold"
+          >החזרת רחפן</a
+        >
+      </button>
+    </br>    </br>
+    <form method="post" action="" enctype="text/plain">
+      <fieldset>
+        <legend>פרטים אישיים</legend>
+        <input type="text" name="name" placeholder="הכנס שם מלא" />
+        <br />
+        <input type="text" name="address" placeholder="הכנס כתובת מגורים" />
+
+        <br />
+        <input
+          type="tel"
+          name="phonenumber"
+          placeholder="הכנס מספר פלאפון"
+          maxlength="10"
+        />
+        <br />
+        <input type="email" name="email" placeholder="הכנס דואר אלקטרוני" />
+      </fieldset>
+      <br />
+
+      <fieldset>
+        <legend>פרטי רחפן</legend>
+        <fieldset>
+          <legend>חברה</legend>
+          <input type="radio" name="comp" value="typhoon" />typhoon <br />
+          <input type="radio" name="comp" value="px4" />px4<br />
+          <input type="radio" name="comp" value="dji" />dji<br />
+        </fieldset>
+        <fieldset>
+          <legend>דגם</legend>
+          <input type="radio" name="type" value="mini" />mini<br />
+          <input type="radio" name="type" value="pro" />pro<br />
+          <input type="radio" name="type" value="enterpise" />enterpise<br />
+        </fieldset>
+        <fieldset>
+          <legend>מספר סידורי</legend>
+          <input type="text" name="serial" placeholder="הכנס מס' סידורי" />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>הכנס תאריך קנייה</legend>
+          <input type="date" name="boughtdate" />
+        </fieldset>
+      </fieldset>
+      <br />
+      <fieldset>
+        <button type="submit" value="submit">שלח</button>
+        <button type="reset" value="reset">איפוס</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

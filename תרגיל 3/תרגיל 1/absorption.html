@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>absorption</title>
+  </head>
+  <body
+    dir="rtl"
+    style="font-family: arial; font-size: 20px; text-align: center;background-color:rgb(226, 225, 225)"
+  >
+    <center><h1>תיקון רחפן</h1></center>
+     
+      <button style="background-color: rgba(255, 255, 0, 0.702)">
+        <a
+          href="../תרגיל 1/home.html"
+          style="color: black; text-decoration: none;font-weight: bold"
+          >דף הבית</a
+        >
+      </button>
+      <button style="background-color: rgba(255, 255, 0, 0.702)">
+        <a
+          href="../תרגיל 1/sales.html"
+          style="color: black; text-decoration: none;font-weight: bold"
+          >מכירת רחפן</a
+        >
+      </button>
+      <button style="background-color: rgba(240, 240, 37, 0.127)">
+        <a
+          href="../תרגיל 1/absorption.html"
+          style="color: black; text-decoration: none;font-weight: bold"
+          >תיקון רחפן</a
+        >
+      </button>
+      <button style="background-color: rgba(255, 255, 0, 0.702)">
+        <a
+          href="../תרגיל 1/returns.html"
+          style="color: black; text-decoration: none;font-weight: bold"
+          >החזרת רחפן</a
+        >
+      </button>
+    </br>    </br>
+    <form method="post" action="" enctype="text/plain">
+      <fieldset>
+        <legend>פרטים אישיים</legend>
+        <input type="text" name="name" placeholder="הכנס שם מלא" />
+        <br />
+        <input
+          type="password"
+          name="userID"
+          placeholder="הכנס מס' ת.ז"
+          maxlength="9"
+        />
+
+        <br />
+        <input
+          type="tel"
+          name="phonenumber"
+          placeholder="הכנס מספר פלאפון"
+          maxlength="10"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>פרטי הרחפן</legend>
+        <input type="text" name="serial" placeholder="הכנס מס' סידורי" />
+        <br />
+        <br />
+        <fieldset>
+          <legend>הכנס תאריך קליטה</legend>
+          <input type="date" name="date" />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>האם לרחפן קיימת אחריות?</legend>
+          <input type="radio" name="role" value="YES" />כן<br />
+          <input type="radio" name="role" value="NO" />לא<br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>תיאור התקלה</legend>
+          <textarea rows="3" cols="30" placeholder="תאר את התקלה"></textarea>
+        </fieldset>
+
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>האם אתה מנוי VIP?</legend>
+        <input type="radio" name="vip" value="YES" />ברור!<br />
+        <input type="radio" name="vip" value="NO" />עדיין לא<br />
+      </fieldset>
+      <fieldset>
+        <legend>צפי לסיום</legend>
+
+        <input type="text" name="endate" value="08/07/2022" disabled />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <button type="submit" value="submit">שלח</button>
+        <button type="reset" value="reset">איפוס</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
